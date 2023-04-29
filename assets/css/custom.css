@@ -1,0 +1,154 @@
+
+
+.page-enter-active {
+    animation: page-fade-in 0.3s ease-out;
+}
+
+.page-leave-active {
+    animation: page-fade-out 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+@keyframes page-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes page-fade-out {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+
+.layout-enter-active {
+    transition: all 0.3s ease-out;
+}
+
+.layout-leave-active {
+    transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.layout-enter-from,
+.layout-leave-to {
+    /*transform: translateY(-20px);*/
+    opacity: 0;
+}
+
+
+a {
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.error-input {
+    border-color: #d02525 !important;
+}
+
+.success-input {
+    border-color: #009800 !important;
+}
+
+.bg-gray {
+    background: #999999 !important;
+    border-color: #999999 !important;
+}
+
+.height-42 {
+    height: 42px !important;
+}
+
+.height-35 {
+    height: 35px !important;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.Vue-Toastification__toast-body {
+    font-family: 'Shabnam', serif !important;
+    font-size: 14px !important;
+}
+
+.border-success {
+    border-color: #23d523 !important;
+}
+
+.no-style-button {
+    background-color: unset !important;
+    border: unset !important;
+    cursor: pointer !important;
+    color: #0568fb !important;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.no-style-button:hover {
+    background-color: unset !important;
+    border: unset !important;
+    cursor: pointer !important;
+    color: #0568fb;
+}
+
+.auth-logo {
+    width: 200px;
+}
+
+.text-red {
+    color: #F44336;
+}
+
+.no-cursor {
+    cursor: default;
+}
+
+.border-image-20 {
+    border-radius: 20px;
+}
+
+.text-black {
+    color: #495057 !important;
+}
+.height-70{
+    height: 70px;
+}
+.cursor{
+    cursor: pointer !important;
+}
+.checkout-section .checkout-step ul li.active:before,
+.checkout-section .checkout-step ul li.active:after {
+  background-color: #2DB566;
+}
+
+
+.checkout-section .checkout-section-content .address-select {
+
+    cursor: default;
+
+}
+.b-radius-20{
+    border-radius: 20px;
+}
+.bg-yellow{
+    background-color: #8a8a11;
+}
+.d-contents{
+    display: contents !important;
+}
+.text-yellow{
+    color: #919105;
+}
